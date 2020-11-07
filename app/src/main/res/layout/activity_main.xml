@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+
+    <github.hellocsl.cursorwheel.CursorWheelLayout
+        android:id="@+id/wheel"
+        android:layout_width="306dip"
+        android:layout_height="306dip"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="-153dip"
+        android:layout_marginBottom="-153dp"
+        app:wheelBackgroundColor="@color/white"
+        app:wheelCursorColor="@color/bg_wheel"
+        app:wheelCursorHeight="20dip"
+        app:wheelFlingValue="460"
+        app:wheelSelectedAngle="270">
+
+
+    </github.hellocsl.cursorwheel.CursorWheelLayout>
+
+    <TextView
+        android:id="@+id/tv_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Click To Open App"
+        android:textColor="@color/colorAccent"></TextView>
+</RelativeLayout>
